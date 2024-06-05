@@ -40,10 +40,10 @@ main{
         height: 500px;
     }
     .logo img{
-        height: 80px;
+        height: 55px;
     }
 }
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .iframe{
         height: 210px;
     }
