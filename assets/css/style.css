@@ -43,7 +43,7 @@ main{
         height: 80px;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 900px){
     .iframe{
         height: 210px;
     }
