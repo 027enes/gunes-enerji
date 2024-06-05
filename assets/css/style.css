@@ -40,12 +40,27 @@ main{
         height: 250px;
     }
     .logo img{
-        height: 70px;
+        height: 80px;
     }
 }
 @media (max-width: 768px){
     .iframe{
         height: 210px;
+    }
+    .logo img{
+        height: 50px;
+    }
+    .mobil-bg{
+        display: block;
+    }
+    .pc-bg{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .iframe{
+        margin-top: 50px;
+        height: 400px;
     }
     .logo img{
         height: 50px;
