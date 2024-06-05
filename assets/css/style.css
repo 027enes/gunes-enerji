@@ -21,53 +21,52 @@ main{
     height: 100%;
     object-fit: cover;
 }
-.logo{
+.container {
+    position: unset;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 50px 0;
 }
-.logo img{
+.logo {
+    transition: margin-bottom 0.3s ease-in-out;
     height: 100px;
 }
-.iframe{
-    margin-top: 100px;
-    height: 600px;
+.logo.shrink {
+    margin-bottom: 30px; /* Minimum margin */
+}
+.iframe-container {
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: none;
+}
+.content{
+    width: 100%;
+    margin:0 auto ;
 }
 @media (max-width: 1366px){
-    .iframe {
-        margin-top: 20px;
-        height: 500px;
-    }
-    .logo img{
+    .logo{
         height: 55px;
-    }
-}
-@media (max-width: 1000px){
-    .iframe{
-        height: 210px;
-    }
-    .logo img{
-        height: 50px;
-    }
-    .mobil-bg{
-        display: block;
-    }
-    .pc-bg{
-        display: none;
-    }
-    .mobil-bg-img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 500px){
-    .iframe{
-        margin-top: 50px;
-        height: 400px;
-    }
-    .logo img{
+
+    .logo{
         height: 50px;
     }
     .mobil-bg{
