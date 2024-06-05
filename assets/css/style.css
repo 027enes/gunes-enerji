@@ -46,7 +46,7 @@ main{
 @media (max-width: 768px){
     .iframe{
         margin-top: 50px;
-        height: 400px;
+        height: 210px;
     }
     .logo img{
         height: 50px;
