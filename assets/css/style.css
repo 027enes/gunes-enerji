@@ -34,7 +34,14 @@ main{
     height: 600px;
     width: 100%;
 }
-
+@media (max-width: 1366px){
+    .iframe {
+        margin-top: 20px;
+    }
+    .logo img{
+        height: 80px;
+    }
+}
 @media (max-width: 768px){
     .iframe{
         margin-top: 50px;
